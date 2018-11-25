@@ -131,9 +131,17 @@ footer{
 	}
 	.herofeoture, .herocoltoaction{
 		width: 99%;
-		height: 43px;
+		height: 40px;
 		margin:3px;
 	}
+	.hide3 {
+        display: none;
+    }
+    .hide4 {
+        display: block;
+        height: 140px;
+        line-height: 140px;
+    }
 	#body{
 		width: 99%;
 		height: 500px;
