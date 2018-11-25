@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid green; */
+
+}
+header{
+	height: 80px;
+	padding-left: 1%;
+    margin-bottom: 1%;
+    background: lightskyblue;
+
+}
+header .brond{
+	width: 10%;
+	height: 45px;
+	float: left;
+	margin-right: 1%;
+	line-height: 45px;
+	text-align: center;
+	background: rgb(224, 239, 248);
+}
+header .globol{
+	width: 65%;
+	height: 45px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 1%;
+	background: rgb(224, 239, 248);
+}
+header .tods{
+	width: 22%;
+	height: 45px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	background: rgb(224, 239, 248);
+}
+#hero{
+	height: 120px;
+	float: left;
+	width: 75%;
+	margin-right: 1%;
+	line-height: 20px;
+    padding-left: 1%;
+    background: lightskyblue;
+    margin-bottom: 1%;
+}
+.herofeoture{
+	width: 60%;
+	height: 70px;
+	float: left; 
+	text-align: center;
+	line-height: 70px;
+	margin-right: 1%;
+	background: rgb(224, 239, 248);
+}
+.herocoltoaction{
+	width: 38%;
+	height: 70px;
+	float: left; 
+	text-align: center;
+	line-height: 70px;
+	background: rgb(224, 239, 248);
+}
+#ad{
+	width: 23%;
+	height: 120px;
+	float: right;
+	line-height: 20px;
+	margin-bottom: 1%;
+	background: rgb(10, 137, 216);
+}
+#body{
+	height: 300px;
+	width: 75%;
+	padding-left: 1%;
+    margin-bottom: 1%;
+    clear: left;
+    float: left;
+    margin-right: 1%; 
+    background: lightskyblue;
+}
+.ariclefeoture{
+	width: 30%;
+	height: 260px;
+	float: left; 
+ 	line-height: 260px;
+    text-align: center;
+    margin-right: 1%;
+    background: rgb(224, 239, 248);
+}
+.ariclelisting{
+	width: 68%;
+	height: 260px;
+	float: left; 
+    line-height: 260px;
+    text-align: center;
+    background: rgb(224, 239, 248);
+}
+#sidebar{
+	width: 22%;
+	height: 300px;
+	padding-left: 1%;
+    margin-bottom: 1%;
+    float: left;
+    background: lightskyblue;
+}
+footer{
+	width: 99%;
+	height: 80px;
+	float: right; 
+	padding-left: 1%;
+    clear: both;
+    background: lightskyblue;
+}
+
+@media screen and (max-width: 768px)	{
+	#container{
+		width: 100%;
+		height: 900px;
+		
+	}
+	#hero{
+		width: 99%;
+	}
+	.herofeoture, .herocoltoaction{
+		width: 99%;
+		height: 43px;
+		margin:3px;
+	}
+	#body{
+		width: 99%;
+		height: 500px;
+
+	}
+}
