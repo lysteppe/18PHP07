@@ -1,0 +1,203 @@
+*{
+margin:0px;
+padding:0px;
+}
+header{
+	width: 100%;
+	height: 150px;
+	border: 1px solid white;
+}
+header .logo{
+	width: 200px;
+	height: 150px;
+	border: 1px solid white;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+header .banner{
+	width: 84%;
+	height: 150px;
+	border: 1px solid white;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+header .menu{
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+#menu	{
+	background-color: #3366FF;
+	clear: both;
+	height: 50px;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 48px;
+}
+#menu	li{	
+	text-align: center;
+	float: left;
+    list-style-type: none;
+    display: inline;
+}
+#menu li a{
+
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+    color: #FFF;
+	font-size:20px;
+	padding: 0px 90px;
+	margin: 0 20px;
+	border-top: 4px solid #3366FF;
+	border-bottom: 4px solid #3366FF;
+	transition: 1.5s ease;
+}
+
+#menu li a:hover{
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	padding:0px 10;
+}
+.title{
+	background-image: url(title1.jpg);
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 169px;
+	margin: 10px 10px 3px 10px;
+	border-radius: 10px;
+
+}
+
+.vietnam{
+	width: 16%;
+	height: 1000px;
+	border: 1px solid white;
+	border-radius: 10px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	background-color: #E1E0E0;
+	margin: 1em;
+	font-family:Timenewroman;
+	font-size:19px;
+}
+.contries{
+	list-style-type: square;
+	float: left;
+	text-align: left;
+	padding: 10px 35px;
+	line-height: 30px;
+	font-family:Timenewroman;
+	font-size:20px;
+}
+.new{
+	font-size: 15px;
+	color: red;
+}
+
+#footer{
+	width:100%;
+	float:center;
+	padding: 2px 0 0 0;
+	background-color:#DDDDDD;
+}
+#footer div{
+	text-decoration: none;
+	background-color:#DDDDDD;
+	text-align:center;
+	padding:10px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#F3FBFF;
+	height: 40px;
+}
+#footer div a{
+	background-color:#DDDDDD;
+	color:green;
+	text-decoration: none;
+	margin:0 5px;
+	line-height:90px;
+
+}
+#footer div a:visited{
+	text-decoration: none;
+}
+#footer div p{
+	text-decoration: none;
+}
+#copy{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#323232;
+	text-align:center;
+	font-size: 18px;
+	line-height:90px;
+}
+#footerlogo{
+	float: left;
+}
+/*---- gioi thieu---*/
+#big{
+	width: 75%;
+	height: 2450px;
+	border: 1px solid #888888;
+	margin: 2em;
+	float:right;
+	background-position:22px -1px;
+	background-repeat:no-repeat;
+}
+#big h1{
+	text-align: center;
+}
+.text p{
+	float: center;
+	text-align: justify;
+	font-size: 18px;
+}
+.comment-widget {
+    float: center;
+    width: 100%;
+    margin: 3em 1em;
+}
+.comment-widget .comment-form {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    border-bottom: 3px solid #FFF;
+    background: #f7f7f7;
+}
+element.style {
+}
+.comment-widget .comment-form .button.btnSubmit {
+    background: #4e69a2;
+    color: #FFF;
+    border-color: #435a8b #3c5488 #334c83;
+    border: 1px solid;
+}
+.comment-widget .comment-form .button {
+    padding: 8px 20px;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+    display: block;
+    float: left;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.comment-widget .comment-form .button.btnSubmit {
+    background: #4e69a2;
+    color: #FFF;
+    border-color: #435a8b #3c5488 #334c83;
+    border: 1px solid;
+}
+.comment-widget full moderated .comment-form .comment-editor{ width:200px; height:300px;
+	}
