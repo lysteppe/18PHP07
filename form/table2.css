@@ -5,7 +5,6 @@
 #main{
 	width: 50%;
 	margin: 0 auto;
-	border: 1px solid #888888;
 	height: 330px;
 }
 #account{
@@ -32,11 +31,18 @@ h1{
 .pass, #submit{
 	margin-top: 0.5em;
 }
-.submit{
+.submit input{
+	width: 56px;
+	height: 25px;
 	margin: 0.5px;
 	float: left;
+    padding-top: 4px;
+}
+span{
+	vertical-align: middle;
 }
 .remember{
+	padding-top: 5px;
 	float: left;
 	margin-left: 10px;
 }
@@ -76,12 +82,15 @@ h1{
 	margin-top: 0.6em;
 }
 #register{
+
 	border: 1px solid #888888;
 	margin: 10px;
 	padding: 10px;
 	padding-left: 0.5em;
 }
-.register{
+.register input{
+	width: 80px;
+	height: 29px;
 	margin-top: 0.6em;
 }
 @media screen and (max-width: 768px){
@@ -91,7 +100,7 @@ h1{
 	}
 	#login{
 		width: 174%;
-		height: 150px;
+		height: 160px;
 	}
 	#register{
 		width: 170%;
