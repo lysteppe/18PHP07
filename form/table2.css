@@ -40,11 +40,15 @@ h1{
 }
 span{
 	vertical-align: middle;
+	    padding: 6px;
+}
+.remember input{
+	vertical-align: middle;
 }
 .remember{
 	padding-top: 5px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 6px;
 }
 .lyp u{
 	float: left;
