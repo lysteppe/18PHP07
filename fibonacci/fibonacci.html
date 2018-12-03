@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci</title>
+	<style type="text/css">
+		#form{
+			width: 38.8%;
+			border:  1px solid green;
+			display: center;
+		}
+		.f1{
+			margin: 23px;
+ 			padding: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div id="form">
+		<form class="f1" name=f1>
+			Nhập Số: <input type=text size=4 name="n"> 
+			<input type=button value="Tính toán" onClick="show(f1.n.value);"> 
+			<input type=reset value="Nhập Lại"><br><br>
+			Kết quả: <input type=text size="50" name="s">
+		</form>
+	</div>
+	<script type="text/javascript" src="fibonacci.js"></script>
+</body>
+</html>
