@@ -13,9 +13,6 @@ function show() {
 			document.getElementById('show-img').src="female.jpg";
 		}
 
-	// var name= document.getElementById('Fullname').value;
-	// document.getElementById('fullname').innerHTML = name;
-
 	var yearr= document.getElementById('yearr').value;
 	document.getElementById('year').innerHTML = yearr;
 	if (yearr > 1998) {
