@@ -13,6 +13,7 @@ function show() {
 		document.getElementById('show').style.background = ('green');
 	}
 	
+	
 	var male= document.getElementById('male').checked;
 	var female= document.getElementById('female').checked;
 		if (male) {
