@@ -263,7 +263,7 @@ function checkGovernment(a) {
 }
 checkParity(9);
 checkFibonacci(13);
-checkGovernment(9);
+checkGovernment(8);
 
 document.write("<br>");
 
